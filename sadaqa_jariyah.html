@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صدقة جارية - سعد محمد سعد النجار</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        cairo: ['Cairo', 'sans-serif'],
+                        amiri: ['Amiri', 'serif'],
+                    },
+                    colors: {
+                        islamic: {
+                            dark: '#0f3a2c',
+                            main: '#1a5c47',
+                            light: '#2a8b6d',
+                            gold: '#d4af37',
+                            goldLight: '#f5d76e',
+                            bg: '#f8f9fa'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #f8f9fa;
+            scroll-behavior: smooth;
+        }
+        
+        .amiri-text {
+            font-family: 'Amiri', serif;
+        }
+
+        /* Subtle background pattern */
+        .hero-pattern {
+            background-color: #0f3a2c;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%231a5c47' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        .tap-effect:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body class="text-gray-800 antialiased selection:bg-islamic-gold selection:text-islamic-dark">
+
+    <!-- Hero Section -->
+    <header class="hero-pattern text-white py-20 px-4 text-center relative overflow-hidden shadow-xl">
+        <div class="absolute inset-0 bg-gradient-to-b from-black/30 to-transparent"></div>
+        <div class="relative z-10 max-w-3xl mx-auto flex flex-col items-center">
+            <i class="fas fa-moon text-islamic-gold text-4xl mb-4 opacity-80"></i>
+            <h2 class="text-xl md:text-2xl text-islamic-goldLight font-semibold mb-2">صدقة جارية على روح المغفور له بإذن الله</h2>
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 amiri-text text-white leading-tight mt-4">
+                سعد محمد سعد النجار
+            </h1>
+            <div class="w-24 h-1 bg-islamic-gold mx-auto mb-6 rounded-full"></div>
+            <p class="text-lg md:text-2xl amiri-text leading-relaxed opacity-95">
+                "اللهم اغفر له وارحمه وعافه واعف عنه، وأكرم نزله، ووسع مدخله، واغسله بالماء والثلج والبرد، ونقه من الخطايا كما ينقى الثوب الأبيض من الدنس."
+            </p>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-12 space-y-20">
+        
+        <!-- Duaa Section -->
+        <section id="duaa">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-bold text-islamic-dark mb-3">أدعية للمتوفي</h2>
+                <div class="w-16 h-1 bg-islamic-main mx-auto rounded-full"></div>
+                <p class="mt-3 text-gray-600">نسألكم الدعاء له بالرحمة والمغفرة</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Duaa Card 1 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border-t-4 border-islamic-main hover:shadow-lg transition-shadow">
+                    <i class="fas fa-hands-praying text-islamic-light text-2xl mb-4"></i>
+                    <p class="amiri-text text-xl leading-loose text-gray-700">
+                        اللهم أبدله داراً خيراً من داره، وأهلاً خيراً من أهله، وأدخله الجنة، وأعذه من عذاب القبر، ومن عذاب النار.
+                    </p>
+                </div>
+                <!-- Duaa Card 2 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border-t-4 border-islamic-main hover:shadow-lg transition-shadow">
+                    <i class="fas fa-hands-praying text-islamic-light text-2xl mb-4"></i>
+                    <p class="amiri-text text-xl leading-loose text-gray-700">
+                        اللهم عامله بما أنت أهله، ولا تعامله بما هو أهله. اللهم اجزه عن الإحسان إحساناً، وعن الإساءة عفواً وغفراناً.
+                    </p>
+                </div>
+                <!-- Duaa Card 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border-t-4 border-islamic-main hover:shadow-lg transition-shadow">
+                    <i class="fas fa-hands-praying text-islamic-light text-2xl mb-4"></i>
+                    <p class="amiri-text text-xl leading-loose text-gray-700">
+                        اللهم إن كان محسناً فزد من حسناته، وإن كان مسيئاً فتجاوز عن سيئاته. اللهم أدخله الجنة من غير مناقشة حساب ولا سابقة عذاب.
+                    </p>
+                </div>
+                <!-- Duaa Card 4 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border-t-4 border-islamic-main hover:shadow-lg transition-shadow">
+                    <i class="fas fa-hands-praying text-islamic-light text-2xl mb-4"></i>
+                    <p class="amiri-text text-xl leading-loose text-gray-700">
+                        اللهم آنسه في وحدته، وفي وحشته، وفي غربته. اللهم أنزله منزلاً مباركاً، وأنت خير المنزلين.
+                    </p>
+                </div>
+                <!-- Duaa Card 5 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border-t-4 border-islamic-main hover:shadow-lg transition-shadow">
+                    <i class="fas fa-hands-praying text-islamic-light text-2xl mb-4"></i>
+                    <p class="amiri-text text-xl leading-loose text-gray-700">
+                        اللهم اجعل قبره روضة من رياض الجنة، ولا تجعله حفرة من حفر النار. اللهم افسح له في قبره مد بصره.
+                    </p>
+                </div>
+                <!-- Duaa Card 6 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border-t-4 border-islamic-main hover:shadow-lg transition-shadow">
+                    <i class="fas fa-hands-praying text-islamic-light text-2xl mb-4"></i>
+                    <p class="amiri-text text-xl leading-loose text-gray-700">
+                        اللهم انقله من مواطن الدود، وضيق اللحود، إلى جنات الخلود. في سدر مخضود، وطلح منضود، وظل ممدود.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Electronic Rosary -->
+        <section id="rosary" class="bg-white rounded-3xl shadow-xl p-8 border border-gray-100 relative overflow-hidden">
+            <!-- Decorative background elements -->
+            <div class="absolute top-0 right-0 w-32 h-32 bg-islamic-light opacity-5 rounded-bl-full"></div>
+            <div class="absolute bottom-0 left-0 w-32 h-32 bg-islamic-gold opacity-10 rounded-tr-full"></div>
+            
+            <div class="relative z-10 text-center mb-10">
+                <h2 class="text-3xl font-bold text-islamic-dark mb-3">السبحة الإلكترونية</h2>
+                <div class="w-16 h-1 bg-islamic-gold mx-auto rounded-full"></div>
+                <p class="mt-3 text-gray-600">اجعل من تسبيحك صدقة له ولنفسك</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">
+                
+                <!-- Counter 1 -->
+                <div class="flex flex-col items-center bg-gray-50 p-6 rounded-2xl shadow-inner border border-gray-100">
+                    <h3 class="text-xl font-bold text-islamic-main mb-4 amiri-text">سبحان الله</h3>
+                    <div class="text-5xl font-bold text-gray-800 mb-6 font-mono" id="count-subhan">0</div>
+                    <button onclick="increment('subhan')" class="w-24 h-24 bg-islamic-main hover:bg-islamic-light text-white rounded-full shadow-lg tap-effect flex items-center justify-center transition-colors mb-4">
+                        <i class="fas fa-plus text-3xl"></i>
+                    </button>
+                    <button onclick="reset('subhan')" class="text-gray-500 hover:text-red-500 transition-colors text-sm flex items-center gap-1">
+                        <i class="fas fa-rotate-right"></i> تصفير
+                    </button>
+                </div>
+
+                <!-- Counter 2 -->
+                <div class="flex flex-col items-center bg-gray-50 p-6 rounded-2xl shadow-inner border border-gray-100">
+                    <h3 class="text-xl font-bold text-islamic-main mb-4 amiri-text">الحمد لله</h3>
+                    <div class="text-5xl font-bold text-gray-800 mb-6 font-mono" id="count-alhamd">0</div>
+                    <button onclick="increment('alhamd')" class="w-24 h-24 bg-islamic-main hover:bg-islamic-light text-white rounded-full shadow-lg tap-effect flex items-center justify-center transition-colors mb-4">
+                        <i class="fas fa-plus text-3xl"></i>
+                    </button>
+                    <button onclick="reset('alhamd')" class="text-gray-500 hover:text-red-500 transition-colors text-sm flex items-center gap-1">
+                        <i class="fas fa-rotate-right"></i> تصفير
+                    </button>
+                </div>
+
+                <!-- Counter 3 -->
+                <div class="flex flex-col items-center bg-gray-50 p-6 rounded-2xl shadow-inner border border-gray-100">
+                    <h3 class="text-xl font-bold text-islamic-main mb-4 amiri-text">لا إله إلا الله</h3>
+                    <div class="text-5xl font-bold text-gray-800 mb-6 font-mono" id="count-la-ilaha">0</div>
+                    <button onclick="increment('la-ilaha')" class="w-24 h-24 bg-islamic-main hover:bg-islamic-light text-white rounded-full shadow-lg tap-effect flex items-center justify-center transition-colors mb-4">
+                        <i class="fas fa-plus text-3xl"></i>
+                    </button>
+                    <button onclick="reset('la-ilaha')" class="text-gray-500 hover:text-red-500 transition-colors text-sm flex items-center gap-1">
+                        <i class="fas fa-rotate-right"></i> تصفير
+                    </button>
+                </div>
+
+                <!-- Counter 4 -->
+                <div class="flex flex-col items-center bg-gray-50 p-6 rounded-2xl shadow-inner border border-gray-100">
+                    <h3 class="text-xl font-bold text-islamic-main mb-4 amiri-text">الله أكبر</h3>
+                    <div class="text-5xl font-bold text-gray-800 mb-6 font-mono" id="count-allahu-akbar">0</div>
+                    <button onclick="increment('allahu-akbar')" class="w-24 h-24 bg-islamic-main hover:bg-islamic-light text-white rounded-full shadow-lg tap-effect flex items-center justify-center transition-colors mb-4">
+                        <i class="fas fa-plus text-3xl"></i>
+                    </button>
+                    <button onclick="reset('allahu-akbar')" class="text-gray-500 hover:text-red-500 transition-colors text-sm flex items-center gap-1">
+                        <i class="fas fa-rotate-right"></i> تصفير
+                    </button>
+                </div>
+
+            </div>
+            <!-- Global Reset -->
+            <div class="mt-8 text-center">
+                 <button onclick="resetAll()" class="bg-gray-200 hover:bg-gray-300 text-gray-700 px-6 py-2 rounded-full transition-colors text-sm font-semibold">
+                    <i class="fas fa-trash-can ml-1"></i> تصفير جميع العدادات
+                </button>
+            </div>
+        </section>
+
+        <!-- Quran & Azkar Links -->
+        <section id="quran">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-bold text-islamic-dark mb-3">القرآن الكريم والأذكار</h2>
+                <div class="w-16 h-1 bg-islamic-main mx-auto rounded-full"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Sura Al-Kahf -->
+                <a href="https://surahquran.com/18.html" target="_blank" class="block group bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all border border-gray-100 text-center">
+                    <div class="w-16 h-16 bg-islamic-bg text-islamic-main rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-islamic-main group-hover:text-white transition-colors">
+                        <i class="fas fa-book-quran text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">سورة الكهف</h3>
+                    <p class="text-gray-500 text-sm">نور ما بين الجمعتين</p>
+                </a>
+                
+                <!-- Sura Al-Mulk -->
+                <a href="https://surahquran.com/67.html" target="_blank" class="block group bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all border border-gray-100 text-center">
+                    <div class="w-16 h-16 bg-islamic-bg text-islamic-main rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-islamic-main group-hover:text-white transition-colors">
+                        <i class="fas fa-book-open text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">سورة الملك</h3>
+                    <p class="text-gray-500 text-sm">المنجية من عذاب القبر</p>
+                </a>
+
+                <!-- Azkar -->
+                <a href="https://azkar.com/" target="_blank" class="block group bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all border border-gray-100 text-center">
+                    <div class="w-16 h-16 bg-islamic-bg text-islamic-main rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-islamic-main group-hover:text-white transition-colors">
+                        <i class="fas fa-sun text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">أذكار الصباح والمساء</h3>
+                    <p class="text-gray-500 text-sm">حصن المسلم</p>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-islamic-dark text-white pt-12 pb-8 mt-12 border-t-4 border-islamic-gold">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <i class="fas fa-heart text-islamic-gold text-2xl mb-4"></i>
+            <p class="text-xl md:text-2xl amiri-text mb-6">
+                نسألكم الدعاء له ولجميع موتى المسلمين بالرحمة والمغفرة.
+            </p>
+            
+            <button onclick="sharePage()" class="bg-islamic-gold hover:bg-yellow-600 text-islamic-dark font-bold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:-translate-y-1 mb-8 flex items-center justify-center mx-auto gap-2">
+                <i class="fas fa-share-nodes"></i> شارك الصفحة لتكون صدقة جارية
+            </button>
+            
+            <div class="text-sm text-gray-400 opacity-75 mt-8 border-t border-gray-700 pt-6">
+                صُنع بنية الصدقة الجارية. غفر الله له ورحمه.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Logic -->
+    <script>
+        // State for counters
+        const counters = {
+            'subhan': 0,
+            'alhamd': 0,
+            'la-ilaha': 0,
+            'allahu-akbar': 0
+        };
+
+        // Load from local storage if available
+        window.onload = () => {
+            for (let key in counters) {
+                const saved = localStorage.getItem('counter_' + key);
+                if (saved) {
+                    counters[key] = parseInt(saved);
+                    updateDisplay(key);
+                }
+            }
+        };
+
+        function increment(type) {
+            counters[type]++;
+            updateDisplay(type);
+            saveToStorage(type);
+            
+            // Optional: Provide a slight haptic feedback on mobile if supported
+            if (navigator.vibrate) {
+                navigator.vibrate(50);
+            }
+        }
+
+        function reset(type) {
+            counters[type] = 0;
+            updateDisplay(type);
+            saveToStorage(type);
+        }
+
+        function resetAll() {
+            if(confirm("هل أنت متأكد من تصفير جميع العدادات؟")) {
+                for (let key in counters) {
+                    counters[key] = 0;
+                    updateDisplay(key);
+                    saveToStorage(key);
+                }
+            }
+        }
+
+        function updateDisplay(type) {
+            document.getElementById('count-' + type).innerText = counters[type];
+        }
+
+        function saveToStorage(type) {
+            localStorage.setItem('counter_' + type, counters[type]);
+        }
+
+        // Web Share API
+        async function sharePage() {
+            const shareData = {
+                title: 'صدقة جارية - سعد محمد سعد النجار',
+                text: 'نسألكم الدعاء وقراءة الفاتحة والتسبيح بنية الصدقة الجارية على روح المغفور له بإذن الله سعد محمد سعد النجار.',
+                url: window.location.href
+            };
+
+            if (navigator.share) {
+                try {
+                    await navigator.share(shareData);
+                } catch (err) {
+                    console.log('Error sharing:', err);
+                }
+            } else {
+                // Fallback for browsers that do not support Web Share API
+                const dummy = document.createElement('input');
+                document.body.appendChild(dummy);
+                dummy.value = window.location.href;
+                dummy.select();
+                document.execCommand('copy');
+                document.body.removeChild(dummy);
+                
+                // Show a custom message box instead of alert
+                showToast("تم نسخ رابط الصفحة للمشاركة. جزاكم الله خيراً.");
+            }
+        }
+
+        // Simple Toast Notification for Copy
+        function showToast(message) {
+            const toast = document.createElement('div');
+            toast.className = "fixed bottom-5 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white px-6 py-3 rounded-full shadow-2xl z-50 transition-opacity duration-300";
+            toast.innerText = message;
+            document.body.appendChild(toast);
+            
+            setTimeout(() => {
+                toast.style.opacity = '0';
+                setTimeout(() => document.body.removeChild(toast), 300);
+            }, 3000);
+        }
+    </script>
+</body>
+</html>
